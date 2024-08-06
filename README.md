@@ -1,12 +1,12 @@
 # docker-motioneye
 docker-compose MotionEye | Tu CCTV en Docker
 
-## MotionEye OS
+### MotionEye OS
 https://github.com/ccrisan/motioneye
 
 Go to release page, https://github.com/ccrisan/motioneye/releases, download a release and burn it to your device.
 
-## MotionEye on Docker
+### MotionEye on Docker
 https://github.com/ccrisan/motioneye/wiki/Install-In-Docker
 
 docker run --name="motioneye" \
@@ -23,6 +23,10 @@ docker run --name="motioneye" \
 Add -p 8081:8081 for streaming
 Add --device=/dev/video0 for camera
 
-Default Credentials
+### MotionEye docker-compose.yml
+-> https://github.com/JLalib/docker-motioneye/blob/main/docker-compose.yml
+
+### Default Credentials
 username: "admin"
-Password: ""
+
+password: ""
