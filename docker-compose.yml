@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+    motioneye:
+        container_name: motioneye
+        ports:
+            - 8765:8765 #Port WEB GUI
+            - 8081:8081 #Port Streaming
+        hostname: motioneye
+        volumes:
+            - /etc/localtime:/etc/localtime:ro #Timezone
+            - /etc/motioneye:/etc/motioneye #Config
+            - /var/lib/motioneye:/var/lib/motioneye #Videos
+        restart: always
+        devices:
+            - /dev/video0
+        image: ccrisan/motioneye:master-armhf
