@@ -3,7 +3,7 @@ services:
     motioneye:
         container_name: motioneye
         ports:
-            - 8765:8765 #Port WEB GUI
+            - 8765:8765 #Port WEB
             - 8081:8081 #Port Streaming
         hostname: motioneye
         volumes:
