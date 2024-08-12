@@ -1,5 +1,6 @@
-# docker-motioneye
-docker-compose MotionEye | Tu CCTV en Docker
+# MotionEye
+
+MotionEye | Tu CCTV en Docker
 
 ### MotionEye OS
 https://github.com/ccrisan/motioneye
@@ -23,6 +24,9 @@ docker run --name="motioneye" \
 Add -p 8081:8081 for streaming
 Add --device=/dev/video0 for camera
 
+List CAM
+ls /dev | grep video
+
 ### MotionEye docker-compose.yml
 -> https://github.com/JLalib/docker-motioneye/blob/main/docker-compose.yml
 
@@ -30,3 +34,5 @@ Add --device=/dev/video0 for camera
 username: "admin"
 
 password: ""
+
+![motioneye-featured-image-new](https://github.com/user-attachments/assets/4f15f18c-d64b-4dc0-af94-4ac05d53b587)
