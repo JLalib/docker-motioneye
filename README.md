@@ -1,6 +1,6 @@
 # MotionEye
-
 MotionEye | Tu CCTV en Docker
+![motioneye-featured-image-new](https://github.com/user-attachments/assets/4f15f18c-d64b-4dc0-af94-4ac05d53b587)
 
 ### MotionEye OS
 https://github.com/ccrisan/motioneye
@@ -35,5 +35,3 @@ ls /dev | grep video
 username: "admin"
 
 password: ""
-
-![motioneye-featured-image-new](https://github.com/user-attachments/assets/4f15f18c-d64b-4dc0-af94-4ac05d53b587)
