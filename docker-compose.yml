@@ -12,5 +12,5 @@ services:
             - /var/lib/motioneye:/var/lib/motioneye #Videos
         restart: always
         devices:
-            - /dev/video0
+            - /dev/video0 # Usa siguiente comando para saber cuál es tu cámara- ls /dev | grep video
         image: ccrisan/motioneye:master-armhf
